@@ -18,7 +18,7 @@ Advanced peripherals
 
 **SETUP (spreadsheet)**
 
-1. Open a google spreadsheet and go to Extensions > Apps scrip.
+1. Open a google spreadsheet and go to Extensions > Apps script
 2. paste `spreadsheet.js` into the text editor that opens.
 
 3\. press the blue deploy button and press \[New Deployment].
@@ -31,7 +31,7 @@ Advanced peripherals
 
 **SETUP (IN WORLD)**
 
-Place down an MEBridge `advancedperipherals:me\\\_bridge` and a computer `computercraft:computer\\\_normal`. ensure the computer is ontop of, but touching the MEbridge
+Place down an MEBridge advancedperipherals:me\\\_bridge and a computer `computercraft:computer\\\_normal`. ensure the computer is ontop of, but touching the MEbridge
 
 
 
@@ -39,7 +39,7 @@ Place down an MEBridge `advancedperipherals:me\\\_bridge` and a computer `comput
 
 1. Find the folder that the computer you just placed is.
 
- Should look something like this: `.Minecraft\\\\saves\\\\\\\[WORLD]\\\\computercraft\\\\computer\\\\\\\[X]`
+ Should look something like this: .Minecraft\\saves\\\[WORLD]\\computercraft\\computer\\\[X]
 
 2\. paste `items.lua` and `config.txt` into the computers file.
 
