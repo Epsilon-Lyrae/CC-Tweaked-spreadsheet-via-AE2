@@ -6,14 +6,19 @@ if f then
     URL = config.URL
     verticalOffset = config.verticalOffset
     horizontalOffset = config.horizontalOffset
+    sheetName = config.sheetName
 end
+print("URL: " .. URL)
+print("verticalOffset: " .. verticalOffset)
+print("horizontalOffset: " .. horizontalOffset)
+print("sheetName: " .. sheetName)
 
 -- buffeer make horizontalOffset not an upvalue 
 -- upvalues :(
 local o = horizontalOffset
 
 local function horizontalOffset(offset)
-    return string.char(63 + offset + o)
+    return string.char(64 + offset + o)
 end
 
 local function writeCells(sheetName, map, deleteRows, compact)
@@ -145,8 +150,5 @@ while true do
         end
     end
     oldFluids = clone(curFluids)
-
-
-
-    writeCells("CreativeTesting", spreadsheetWrites, payload, true)
+    writeCells(sheetName, spreadsheetWrites, payload, true)
 end
