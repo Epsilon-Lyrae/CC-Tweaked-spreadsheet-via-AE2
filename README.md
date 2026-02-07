@@ -31,7 +31,7 @@ Advanced peripherals
 
 **SETUP (IN WORLD)**
 
-Place down an MEBridge advancedperipherals:me\\\_bridge and a computer `computercraft:computer\\\_normal`. ensure the computer is ontop of, but touching the MEbridge
+Place down an MEBridge and a computer. ensure the computer is ontop of, but touching the MEbridge
 
 
 
