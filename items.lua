@@ -3,11 +3,13 @@ local config = {}
 local f = loadfile("config.txt", "t", config)
 if f then
     f()
-    URL = config.URL
+    deploymentId = config.deploymentId
     verticalOffset = config.verticalOffset
     horizontalOffset = config.horizontalOffset
     sheetName = config.sheetName
 end
+print("deploymentId: " .. deploymentId)
+URL = "https://script.google.com/macros/s/" .. deploymentId .. "/exec"
 print("URL: " .. URL)
 print("verticalOffset: " .. verticalOffset)
 print("horizontalOffset: " .. horizontalOffset)
