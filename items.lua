@@ -103,7 +103,6 @@ while true do
             if not exists then
                 table.insert(payload, i + verticalOffset)
                 table.remove(oldItems, i)
-
             end
         end
     end
