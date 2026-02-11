@@ -32,22 +32,9 @@ Advanced peripherals
 **SETUP (IN WORLD)**
 
 Place down an MEBridge and a computer. ensure the computer is ontop of, but touching the MEbridge
+In the computer, run "wget run https://raw.githubusercontent.con/lyrae-zip/CC-Tweaked-spreadsheet-via-AE2/refs/heads/main/installer.lua"
 
-
-
-**SETUP (IN YOUR COMPUTER)**
-
-1. Find the folder that the computer you just placed is.
-
- Should look something like this: .Minecraft\\saves\\\[WORLD]\\computercraft\\computer\\\[X]
-
-2\. paste `items.lua` and `config.txt` into the computers file.
-
-3\. paste your deployment ID into the config file.
-
-4\. paste your sheetName into the config file. sheet name refers to the name of the sheet found at the bottom of the google sheets UI, not the name of the entire document.
-
-
+open `config.txt` and place your DeploymentID
 
 **FINAL**
 
